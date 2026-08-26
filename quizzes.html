@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quizzes | Maestro Math</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <!-- ================= BACKGROUND ================= -->
+
+    <div class="bg-shape shape-one"></div>
+    <div class="bg-shape shape-two"></div>
+    <div class="bg-shape shape-three"></div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-icon">∑</span>
+
+                <div>
+                    <strong>Maestro</strong>
+                    <small>Math</small>
+                </div>
+
+            </a>
+
+
+            <nav class="nav-links">
+
+                <a href="index.html"
+                   data-en="Home"
+                   data-ar="الرئيسية">
+                    Home
+                </a>
+
+                <a href="about.html"
+                   data-en="About"
+                   data-ar="عن المدرس">
+                    About
+                </a>
+
+                <a href="courses.html"
+                   data-en="Courses"
+                   data-ar="الكورسات">
+                    Courses
+                </a>
+
+                <a href="quizzes.html"
+                   class="active"
+                   data-en="Quizzes"
+                   data-ar="الاختبارات">
+                    Quizzes
+                </a>
+
+            </nav>
+
+
+            <div class="nav-actions">
+
+                <button
+                    class="language-btn"
+                    onclick="toggleLanguage()">
+
+                    <span id="languageText">
+                        العربية
+                    </span>
+
+                </button>
+
+
+                <a
+                    href="login.html"
+                    class="login-btn"
+                    data-en="Login"
+                    data-ar="تسجيل الدخول">
+
+                    Login
+
+                </a>
+
+
+                <button
+                    class="menu-btn"
+                    onclick="toggleMenu()">
+
+                    ☰
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MOBILE MENU ================= -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a
+            href="index.html"
+            data-en="Home"
+            data-ar="الرئيسية">
+            Home
+        </a>
+
+        <a
+            href="about.html"
+            data-en="About"
+            data-ar="عن المدرس">
+            About
+        </a>
+
+        <a
+            href="courses.html"
+            data-en="Courses"
+            data-ar="الكورسات">
+            Courses
+        </a>
+
+        <a
+            href="quizzes.html"
+            data-en="Quizzes"
+            data-ar="الاختبارات">
+            Quizzes
+        </a>
+
+        <a
+            href="login.html"
+            data-en="Login"
+            data-ar="تسجيل الدخول">
+            Login
+        </a>
+
+    </div>
+
+
+    <!-- ================= PAGE HERO ================= -->
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span
+                class="section-label"
+                data-en="TEST YOURSELF"
+                data-ar="اختبر نفسك">
+
+                TEST YOURSELF
+
+            </span>
+
+
+            <h1
+                data-en="Math Quizzes"
+                data-ar="اختبارات الرياضيات">
+
+                Math Quizzes
+
+            </h1>
+
+
+            <p
+                data-en="Practice what you learned and challenge yourself."
+                data-ar="اتدرب على اللي اتعلمته واختبر نفسك.">
+
+                Practice what you learned and challenge yourself.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- ================= QUIZZES ======================== -->
+    <!-- ================================================= -->
+
+    <section class="courses-section">
+
+        <div class="container">
+
+
+            <!-- ================= SECONDARY ================= -->
+
+            <div class="stage-title">
+
+                <span
+                    data-en="SECONDARY STAGE"
+                    data-ar="المرحلة الثانوية">
+
+                    SECONDARY STAGE
+
+                </span>
+
+
+                <h2
+                    data-en="Secondary Quizzes"
+                    data-ar="اختبارات المرحلة الثانوية">
+
+                    Secondary Quizzes
+
+                </h2>
+
+            </div>
+
+
+            <div class="courses-grid">
+
+
+                <!-- ================= FIRST SECONDARY ================= -->
+
+                <div class="course-card quiz-card">
+
+                    <div class="course-number">
+                        01
+                    </div>
+
+
+                    <div class="grade-icon">
+                        1
+                    </div>
+
+
+                    <span
+                        class="course-tag"
+                        data-en="SECONDARY QUIZ"
+                        data-ar="اختبار ثانوي">
+
+                        SECONDARY QUIZ
+
+                    </span>
+
+
+                    <h2
+                        data-en="First Secondary Quiz"
+                        data-ar="اختبار الصف الأول الثانوي">
+
+                        First Secondary Quiz
+
+                    </h2>
+
+
+                    <p
+                        data-en="Test your understanding of first secondary mathematics and check your progress."
+                        data-ar="اختبر فهمك لرياضيات الصف الأول الثانوي وتابع مستواك.">
+
+                        Test your understanding of first secondary mathematics
+                        and check your progress.
+
+                    </p>
+
+
+                    <div class="quiz-info">
+
+                        <span>●</span>
+
+                        <span
+                            data-en="Practice Level"
+                            data-ar="مستوى تدريب">
+
+                            Practice Level
+
+                        </span>
+
+                    </div>
+
+
+                    <button
+                        class="course-btn"
+                        onclick="startQuiz('أولى ثانوي', '')">
+
+                        <span
+                            data-en="Open Quiz"
+                            data-ar="فتح الاختبار">
+
+                            Open Quiz
+
+                        </span>
+
+                        →
+
+                    </button>
+
+                </div>
+
+
+                <!-- ================= SECOND SECONDARY ================= -->
+
+                <div class="course-card quiz-card featured-course">
+
+                    <div class="course-number">
+                        02
+                    </div>
+
+
+                    <div class="grade-icon">
+                        2
+                    </div>
+
+
+                    <span
+                        class="course-tag"
+                        data-en="SECONDARY QUIZ"
+                        data-ar="اختبار ثانوي">
+
+                        SECONDARY QUIZ
+
+                    </span>
+
+
+                    <h2
+                        data-en="Second Secondary Quiz"
+                        data-ar="اختبار الصف الثاني الثانوي">
+
+                        Second Secondary Quiz
+
+                    </h2>
+
+
+                    <p
+                        data-en="Challenge yourself with questions designed for second secondary mathematics."
+                        data-ar="اختبر نفسك بأسئلة مناسبة لمستوى رياضيات الصف الثاني الثانوي.">
+
+                        Challenge yourself with questions designed
+                        for second secondary mathematics.
+
+                    </p>
+
+
+                    <div class="quiz-info">
+
+                        <span>●</span>
+
+                        <span
+                            data-en="Challenge Level"
+                            data-ar="مستوى تحدي">
+
+                            Challenge Level
+
+                        </span>
+
+                    </div>
+
+
+                    <button
+                        class="course-btn"
+                        onclick="startQuiz('تانية ثانوي', '')">
+
+                        <span
+                            data-en="Open Quiz"
+                            data-ar="فتح الاختبار">
+
+                            Open Quiz
+
+                        </span>
+
+                        →
+
+                    </button>
+
+                </div>
+
+
+                <!-- ================= THIRD SECONDARY ================= -->
+
+                <div class="course-card quiz-card">
+
+                    <div class="course-number">
+                        03
+                    </div>
+
+
+                    <div class="grade-icon">
+                        3
+                    </div>
+
+
+                    <span
+                        class="course-tag"
+                        data-en="SECONDARY QUIZ"
+                        data-ar="اختبار ثانوي">
+
+                        SECONDARY QUIZ
+
+                    </span>
+
+
+                    <h2
+                        data-en="Third Secondary Quiz"
+                        data-ar="اختبار الصف الثالث الثانوي">
+
+                        Third Secondary Quiz
+
+                    </h2>
+
+
+                    <p
+                        data-en="Prepare yourself with focused questions and exam-style mathematical practice."
+                        data-ar="استعد بالأسئلة المركزة والتدريب على نماذج الامتحانات في الرياضيات.">
+
+                        Prepare yourself with focused questions
+                        and exam-style mathematical practice.
+
+                    </p>
+
+
+                    <div class="quiz-info">
+
+                        <span>●</span>
+
+                        <span
+                            data-en="Exam Level"
+                            data-ar="مستوى امتحانات">
+
+                            Exam Level
+
+                        </span>
+
+                    </div>
+
+
+                    <button
+                        class="course-btn"
+                        onclick="startQuiz('تالتة ثانوي', '')">
+
+                        <span
+                            data-en="Open Quiz"
+                            data-ar="فتح الاختبار">
+
+                            Open Quiz
+
+                        </span>
+
+                        →
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= PREPARATORY ================= -->
+
+            <div class="stage-title preparatory-title">
+
+                <span
+                    data-en="PREPARATORY STAGE"
+                    data-ar="المرحلة الإعدادية">
+
+                    PREPARATORY STAGE
+
+                </span>
+
+
+                <h2
+                    data-en="Preparatory Quizzes"
+                    data-ar="اختبارات المرحلة الإعدادية">
+
+                    Preparatory Quizzes
+
+                </h2>
+
+            </div>
+
+
+            <div class="courses-grid">
+
+
+                <!-- ================= FIRST PREPARATORY ================= -->
+
+                <div class="course-card quiz-card">
+
+                    <div class="course-number">
+                        04
+                    </div>
+
+
+                    <div class="grade-icon">
+                        1
+                    </div>
+
+
+                    <span
+                        class="course-tag"
+                        data-en="PREPARATORY QUIZ"
+                        data-ar="اختبار إعدادي">
+
+                        PREPARATORY QUIZ
+
+                    </span>
+
+
+                    <h2
+                        data-en="First Preparatory Quiz"
+                        data-ar="اختبار الصف الأول الإعدادي">
+
+                        First Preparatory Quiz
+
+                    </h2>
+
+
+                    <p
+                        data-en="Test your understanding of first preparatory mathematics and build a strong foundation."
+                        data-ar="اختبر فهمك لرياضيات الصف الأول الإعدادي وابني أساس قوي.">
+
+                        Test your understanding of first preparatory mathematics
+                        and build a strong foundation.
+
+                    </p>
+
+
+                    <div class="quiz-info">
+
+                        <span>●</span>
+
+                        <span
+                            data-en="Foundation Level"
+                            data-ar="مستوى تأسيس">
+
+                            Foundation Level
+
+                        </span>
+
+                    </div>
+
+
+                    <button
+                        class="course-btn"
+                        onclick="startQuiz('أولى إعدادي', '')">
+
+                        <span
+                            data-en="Open Quiz"
+                            data-ar="فتح الاختبار">
+
+                            Open Quiz
+
+                        </span>
+
+                        →
+
+                    </button>
+
+                </div>
+
+
+                <!-- ================= SECOND PREPARATORY ================= -->
+
+                <div class="course-card quiz-card">
+
+                    <div class="course-number">
+                        05
+                    </div>
+
+
+                    <div class="grade-icon">
+                        2
+                    </div>
+
+
+                    <span
+                        class="course-tag"
+                        data-en="PREPARATORY QUIZ"
+                        data-ar="اختبار إعدادي">
+
+                        PREPARATORY QUIZ
+
+                    </span>
+
+
+                    <h2
+                        data-en="Second Preparatory Quiz"
+                        data-ar="اختبار الصف الثاني الإعدادي">
+
+                        Second Preparatory Quiz
+
+                    </h2>
+
+
+                    <p
+                        data-en="Practice important mathematical concepts and improve your problem-solving skills."
+                        data-ar="اتدرب على المفاهيم الرياضية المهمة وطوّر مهاراتك في حل المسائل.">
+
+                        Practice important mathematical concepts
+                        and improve your problem-solving skills.
+
+                    </p>
+
+
+                    <div class="quiz-info">
+
+                        <span>●</span>
+
+                        <span
+                            data-en="Practice Level"
+                            data-ar="مستوى تدريب">
+
+                            Practice Level
+
+                        </span>
+
+                    </div>
+
+
+                    <button
+                        class="course-btn"
+                        onclick="startQuiz('تانية إعدادي', 'https://forms.gle/39vmiYtCHdhLKsfY8')">
+
+                        <span
+                            data-en="Open Quiz"
+                            data-ar="فتح الاختبار">
+
+                            Open Quiz
+
+                        </span>
+
+                        →
+
+                    </button>
+
+                </div>
+
+
+                <!-- ================= THIRD PREPARATORY ================= -->
+
+                <div class="course-card quiz-card">
+
+                    <div class="course-number">
+                        06
+                    </div>
+
+
+                    <div class="grade-icon">
+                        3
+                    </div>
+
+
+                    <span
+                        class="course-tag"
+                        data-en="PREPARATORY QUIZ"
+                        data-ar="اختبار إعدادي">
+
+                        PREPARATORY QUIZ
+
+                    </span>
+
+
+                    <h2
+                        data-en="Third Preparatory Quiz"
+                        data-ar="اختبار الصف الثالث الإعدادي">
+
+                        Third Preparatory Quiz
+
+                    </h2>
+
+
+                    <p
+                        data-en="Review your skills and prepare for exams with focused mathematical practice."
+                        data-ar="راجع مهاراتك واستعد للامتحانات من خلال تدريب مركز في الرياضيات.">
+
+                        Review your skills and prepare for exams
+                        with focused mathematical practice.
+
+                    </p>
+
+
+                    <div class="quiz-info">
+
+                        <span>●</span>
+
+                        <span
+                            data-en="Exam Level"
+                            data-ar="مستوى امتحانات">
+
+                            Exam Level
+
+                        </span>
+
+                    </div>
+
+
+                    <button
+                        class="course-btn"
+                        onclick="startQuiz('تالتة إعدادي', '')">
+
+                        <span
+                            data-en="Open Quiz"
+                            data-ar="فتح الاختبار">
+
+                            Open Quiz
+
+                        </span>
+
+                        →
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= QUIZ NOTE ================= -->
+
+    <section class="quiz-note-section">
+
+        <div class="container">
+
+            <div class="quiz-note">
+
+                <span class="note-icon">
+                    ?
+                </span>
+
+
+                <div>
+
+                    <h3
+                        data-en="Quiz links will be added here."
+                        data-ar="لينكات الاختبارات هتتضاف هنا.">
+
+                        Quiz links will be added here.
+
+                    </h3>
+
+
+                    <p
+                        data-en="When a quiz link is available, simply add it to the quiz button and students will be redirected directly to the test."
+
+                        data-ar="لما يكون لينك الاختبار متاح، ضيفه للزرار والطالب هيتحول مباشرة للاختبار.">
+
+                        When a quiz link is available, simply add it
+                        to the quiz button and students will be redirected
+                        directly to the test.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <div class="footer-logo">
+
+                <span>
+                    ∑
+                </span>
+
+                <div>
+
+                    <strong>
+                        Maestro Math
+                    </strong>
+
+                    <small>
+                        Mr. Ashraf Ali
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <p>
+
+                © <span id="year"></span>
+                Maestro Math.
+
+                <span
+                    data-en="All Rights Reserved."
+                    data-ar="جميع الحقوق محفوظة.">
+
+                    All Rights Reserved.
+
+                </span>
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

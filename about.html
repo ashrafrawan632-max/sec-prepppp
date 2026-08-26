@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About | Maestro Math</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="bg-shape shape-one"></div>
+    <div class="bg-shape shape-two"></div>
+
+    <!-- Navbar -->
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-icon">∑</span>
+
+                <div>
+                    <strong>Maestro</strong>
+                    <small>Math</small>
+                </div>
+
+            </a>
+
+
+            <nav class="nav-links">
+
+                <a href="index.html" data-en="Home" data-ar="الرئيسية">
+                    Home
+                </a>
+
+                <a href="about.html" class="active"
+                    data-en="About"
+                    data-ar="عن المدرس">
+                    About
+                </a>
+
+                <a href="courses.html"
+                    data-en="Courses"
+                    data-ar="الكورسات">
+                    Courses
+                </a>
+
+                <a href="quizzes.html"
+                    data-en="Quizzes"
+                    data-ar="الاختبارات">
+                    Quizzes
+                </a>
+
+            </nav>
+
+
+            <div class="nav-actions">
+
+                <button class="language-btn" onclick="toggleLanguage()">
+                    <span id="languageText">العربية</span>
+                </button>
+
+                <a href="login.html"
+                    class="login-btn"
+                    data-en="Login"
+                    data-ar="تسجيل الدخول">
+                    Login
+                </a>
+
+                <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a>
+
+        <a href="about.html" data-en="About" data-ar="عن المدرس">About</a>
+
+        <a href="courses.html" data-en="Courses" data-ar="الكورسات">Courses</a>
+
+        <a href="quizzes.html" data-en="Quizzes" data-ar="الاختبارات">Quizzes</a>
+
+        <a href="login.html" data-en="Login" data-ar="تسجيل الدخول">Login</a>
+
+    </div>
+
+
+    <!-- About Hero -->
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span class="section-label"
+                data-en="ABOUT THE MAESTRO"
+                data-ar="عن مايسترو الماث">
+                ABOUT THE MAESTRO
+            </span>
+
+            <h1
+                data-en="Meet Mr. Ashraf Ali"
+                data-ar="تعرف على مستر أشرف علي">
+                Meet Mr. Ashraf Ali
+            </h1>
+
+            <p
+                data-en="Experience, passion and a simple way of teaching mathematics."
+                data-ar="خبرة وشغف وطريقة بسيطة في تعليم الرياضيات.">
+                Experience, passion and a simple way of teaching mathematics.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Teacher -->
+
+    <section class="teacher-section">
+
+        <div class="container teacher-grid">
+
+            <div class="teacher-image-wrapper">
+
+                <div class="image-decoration"></div>
+
+                <img src="maestro.jpeg"
+                    alt="Mr. Ashraf Ali - Maestro Math"
+                    class="teacher-image">
+
+                <div class="experience-badge">
+
+                    <strong>30+</strong>
+
+                    <span
+                        data-en="Years Experience"
+                        data-ar="سنة خبرة">
+                        Years Experience
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="teacher-content">
+
+                <span class="section-label"
+                    data-en="THE TEACHER"
+                    data-ar="المدرس">
+                    THE TEACHER
+                </span>
+
+                <h2
+                    data-en="Mr. Ashraf Ali"
+                    data-ar="مستر أشرف علي">
+                    Mr. Ashraf Ali
+                </h2>
+
+                <h3
+                    data-en="Math Teacher | Maestro Math"
+                    data-ar="مدرس رياضيات | مايسترو الماث">
+                    Math Teacher | Maestro Math
+                </h3>
+
+                <p
+                    data-en="With more than 30 years of experience in teaching mathematics, Mr. Ashraf Ali focuses on making mathematics clear, understandable and connected to the student's way of thinking."
+                    data-ar="بخبرة أكتر من 30 سنة في تدريس الرياضيات، بيركز مستر أشرف علي على إن الرياضيات تكون واضحة وسهلة ومبنية على فهم طريقة تفكير الطالب.">
+                    With more than 30 years of experience in teaching mathematics,
+                    Mr. Ashraf Ali focuses on making mathematics clear,
+                    understandable and connected to the student's way of thinking.
+                </p>
+
+                <p
+                    data-en="The goal is not only to solve today's problem, but to build a strong mathematical foundation that helps students throughout their academic journey."
+                    data-ar="الهدف مش بس إن الطالب يحل مسألة النهارده، لكن إنه يبني أساس رياضي قوي يساعده في كل المراحل الدراسية القادمة.">
+                    The goal is not only to solve today's problem, but to build
+                    a strong mathematical foundation that helps students
+                    throughout their academic journey.
+                </p>
+
+
+                <div class="teacher-points">
+
+                    <div>
+                        <span>✓</span>
+                        <p
+                            data-en="30+ years of teaching experience"
+                            data-ar="أكتر من 30 سنة خبرة في التدريس">
+                            30+ years of teaching experience
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p
+                            data-en="Strong focus on foundations"
+                            data-ar="تركيز قوي على التأسيس">
+                            Strong focus on foundations
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p
+                            data-en="Simple and clear explanations"
+                            data-ar="شرح بسيط وواضح">
+                            Simple and clear explanations
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>✓</span>
+                        <p
+                            data-en="Designed for real understanding"
+                            data-ar="تعليم مبني على الفهم الحقيقي">
+                            Designed for real understanding
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Philosophy -->
+
+    <section class="philosophy-section">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-label"
+                    data-en="TEACHING PHILOSOPHY"
+                    data-ar="فلسفة التعليم">
+                    TEACHING PHILOSOPHY
+                </span>
+
+                <h2
+                    data-en="Understand First. Solve Better."
+                    data-ar="افهم الأول.. تحل أحسن.">
+                    Understand First. Solve Better.
+                </h2>
+
+            </div>
+
+
+            <div class="philosophy-grid">
+
+                <div class="philosophy-card">
+                    <span>01</span>
+                    <h3 data-en="Concept" data-ar="الفكرة">Concept</h3>
+                    <p
+                        data-en="Understand the mathematical idea before applying any rule."
+                        data-ar="افهم الفكرة الرياضية قبل ما تطبق أي قانون.">
+                        Understand the mathematical idea before applying any rule.
+                    </p>
+                </div>
+
+                <div class="philosophy-card">
+                    <span>02</span>
+                    <h3 data-en="Practice" data-ar="التدريب">Practice</h3>
+                    <p
+                        data-en="Apply what you learned through different levels of questions."
+                        data-ar="طبق اللي اتعلمته من خلال مستويات مختلفة من الأسئلة.">
+                        Apply what you learned through different levels of questions.
+                    </p>
+                </div>
+
+                <div class="philosophy-card">
+                    <span>03</span>
+                    <h3 data-en="Confidence" data-ar="الثقة">Confidence</h3>
+                    <p
+                        data-en="Turn understanding into confidence when facing new problems."
+                        data-ar="حول الفهم لثقة لما تقابل مسألة جديدة.">
+                        Turn understanding into confidence when facing new problems.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <div class="footer-logo">
+
+                <span>∑</span>
+
+                <div>
+                    <strong>Maestro Math</strong>
+                    <small>Mr. Ashraf Ali</small>
+                </div>
+
+            </div>
+
+            <p>
+                © <span id="year"></span> Maestro Math.
+                <span data-en="All Rights Reserved."
+                    data-ar="جميع الحقوق محفوظة.">
+                    All Rights Reserved.
+                </span>
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maestro Math | Mr. Ashraf Ali</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background Shapes -->
+    <div class="bg-shape shape-one"></div>
+    <div class="bg-shape shape-two"></div>
+    <div class="bg-shape shape-three"></div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">∑</span>
+
+                <div>
+                    <strong>Maestro</strong>
+                    <small>Math</small>
+                </div>
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html" class="active" data-en="Home" data-ar="الرئيسية">Home</a>
+                <a href="about.html" data-en="About" data-ar="عن المدرس">About</a>
+                <a href="courses.html" data-en="Courses" data-ar="الكورسات">Courses</a>
+                <a href="quizzes.html" data-en="Quizzes" data-ar="الاختبارات">Quizzes</a>
+            </nav>
+
+            <div class="nav-actions">
+
+                <button class="language-btn" onclick="toggleLanguage()">
+                    <span id="languageText">العربية</span>
+                </button>
+
+                <a href="login.html" class="login-btn" data-en="Login" data-ar="تسجيل الدخول">
+                    Login
+                </a>
+
+                <button class="menu-btn" onclick="toggleMenu()">
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a>
+
+        <a href="about.html" data-en="About" data-ar="عن المدرس">
+            About
+        </a>
+
+        <a href="courses.html" data-en="Courses" data-ar="الكورسات">
+            Courses
+        </a>
+
+        <a href="quizzes.html" data-en="Quizzes" data-ar="الاختبارات">
+            Quizzes
+        </a>
+
+        <a href="login.html" data-en="Login" data-ar="تسجيل الدخول">
+            Login
+        </a>
+
+    </div>
+
+
+    <!-- Hero -->
+    <main>
+
+        <section class="hero">
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="hero-badge">
+                        <span></span>
+                        <span data-en="Math Made Simple" data-ar="الرياضيات ببساطة">
+                            Math Made Simple
+                        </span>
+                    </div>
+
+                    <h1>
+
+                        <span data-en="Build Your" data-ar="ابني أساسك في">
+                            Build Your
+                        </span>
+
+                        <br>
+
+                        <span class="gradient-text"
+                            data-en="Strong Math Foundation"
+                            data-ar="الرياضيات بقوة">
+                            Strong Math Foundation
+                        </span>
+
+                    </h1>
+
+                    <p
+                        data-en="A strong mathematical foundation starts with understanding, not memorization. Learn mathematics in a simple, clear and enjoyable way with Mr. Ashraf Ali."
+                        data-ar="الأساس القوي في الرياضيات يبدأ بالفهم وليس الحفظ. اتعلم الرياضيات بطريقة سهلة وواضحة وممتعة مع مستر أشرف علي.">
+
+                        A strong mathematical foundation starts with understanding,
+                        not memorization. Learn mathematics in a simple, clear and
+                        enjoyable way with Mr. Ashraf Ali.
+
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a href="courses.html" class="primary-btn">
+
+                            <span data-en="Explore Courses" data-ar="استكشف الكورسات">
+                                Explore Courses
+                            </span>
+
+                            <span class="arrow">→</span>
+
+                        </a>
+
+
+                        <a href="about.html" class="secondary-btn">
+
+                            <span data-en="Meet the Maestro" data-ar="تعرف على المدرس">
+                                Meet the Maestro
+                            </span>
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-stats">
+
+                        <div class="stat">
+                            <strong>30+</strong>
+                            <span data-en="Years Experience" data-ar="سنة خبرة">
+                                Years Experience
+                            </span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>3</strong>
+                            <span data-en="Primary Grades" data-ar="مراحل دراسية">
+                                Primary Grades
+                            </span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>∞</strong>
+                            <span data-en="Learning Potential" data-ar="فرص للتعلم">
+                                Learning Potential
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Hero Visual -->
+                <div class="hero-visual">
+
+                    <div class="math-card card-one">
+                        <span>+</span>
+                    </div>
+
+                    <div class="math-card card-two">
+                        <span>×</span>
+                    </div>
+
+                    <div class="math-card card-three">
+                        <span>π</span>
+                    </div>
+
+                    <div class="hero-circle">
+
+                        <div class="circle-content">
+
+                            <span class="sigma">∑</span>
+
+                            <h2>MAESTRO</h2>
+
+                            <p>MATH</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="equation">
+                        x² + y² = ?
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Introduction -->
+        <section class="intro-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label"
+                        data-en="WHY MAESTRO MATH?"
+                        data-ar="ليه مايسترو الماث؟">
+                        WHY MAESTRO MATH?
+                    </span>
+
+                    <h2
+                        data-en="More Than Just Mathematics"
+                        data-ar="أكتر من مجرد رياضيات">
+                        More Than Just Mathematics
+                    </h2>
+
+                    <p
+                        data-en="We focus on understanding the idea behind every problem and building a strong foundation for the years ahead."
+                        data-ar="بنركز على فهم الفكرة وراء كل مسألة وبناء أساس قوي للسنين الدراسية القادمة.">
+                        We focus on understanding the idea behind every problem
+                        and building a strong foundation for the years ahead.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-grid">
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">01</div>
+
+                        <h3 data-en="Understand" data-ar="افهم">
+                            Understand
+                        </h3>
+
+                        <p
+                            data-en="Understand mathematical concepts instead of simply memorizing steps."
+                            data-ar="افهم المفاهيم الرياضية بدل ما تحفظ خطوات الحل بس.">
+                            Understand mathematical concepts instead of simply
+                            memorizing steps.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">02</div>
+
+                        <h3 data-en="Practice" data-ar="اتدرب">
+                            Practice
+                        </h3>
+
+                        <p
+                            data-en="Practice with carefully designed questions that develop your thinking."
+                            data-ar="اتدرب على أسئلة مصممة علشان تطور طريقة تفكيرك.">
+                            Practice with carefully designed questions that
+                            develop your thinking.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">03</div>
+
+                        <h3 data-en="Master" data-ar="اتقن">
+                            Master
+                        </h3>
+
+                        <p
+                            data-en="Build confidence and become ready for the next level."
+                            data-ar="ابني ثقتك في نفسك وكن مستعد للمستوى اللي بعده.">
+                            Build confidence and become ready for the next level.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta-section">
+
+            <div class="container">
+
+                <div class="cta-box">
+
+                    <div>
+
+                        <span
+                            data-en="READY TO START?"
+                            data-ar="جاهز تبدأ؟">
+                            READY TO START?
+                        </span>
+
+                        <h2
+                            data-en="Your Math Journey Starts Here."
+                            data-ar="رحلتك مع الرياضيات تبدأ من هنا.">
+                            Your Math Journey Starts Here.
+                        </h2>
+
+                    </div>
+
+                    <a href="courses.html" class="primary-btn white-btn">
+
+                        <span
+                            data-en="View Courses"
+                            data-ar="شوف الكورسات">
+                            View Courses
+                        </span>
+
+                        →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <div class="footer-logo">
+                <span>∑</span>
+                <div>
+                    <strong>Maestro Math</strong>
+                    <small>Mr. Ashraf Ali</small>
+                </div>
+            </div>
+
+            <p>
+                © <span id="year"></span> Maestro Math.
+                <span data-en="All Rights Reserved." data-ar="جميع الحقوق محفوظة.">
+                    All Rights Reserved.
+                </span>
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | Maestro Math</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="login-page">
+
+    <div class="bg-shape shape-one"></div>
+    <div class="bg-shape shape-two"></div>
+
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-icon">∑</span>
+
+                <div>
+                    <strong>Maestro</strong>
+                    <small>Math</small>
+                </div>
+
+            </a>
+
+
+            <div class="nav-actions">
+
+                <button class="language-btn" onclick="toggleLanguage()">
+                    <span id="languageText">العربية</span>
+                </button>
+
+                <a href="index.html"
+                    class="login-btn"
+                    data-en="Back Home"
+                    data-ar="الرئيسية">
+                    Back Home
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="login-container">
+
+        <div class="login-card">
+
+            <div class="login-logo">
+                ∑
+            </div>
+
+            <span class="section-label"
+                data-en="WELCOME BACK"
+                data-ar="أهلاً بيك">
+                WELCOME BACK
+            </span>
+
+            <h1
+                data-en="Student Login"
+                data-ar="تسجيل دخول الطالب">
+                Student Login
+            </h1>
+
+            <p
+                data-en="Enter your details to continue."
+                data-ar="اكتب بياناتك علشان تكمل.">
+                Enter your details to continue.
+            </p>
+
+
+            <form id="loginForm">
+
+                <div class="input-group">
+
+                    <label
+                        data-en="Your Name"
+                        data-ar="اسمك">
+                        Your Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="studentName"
+                        placeholder="Enter your name"
+                        required>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label
+                        data-en="Email"
+                        data-ar="البريد الإلكتروني">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="studentEmail"
+                        placeholder="Enter your email"
+                        required>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label
+                        data-en="Password"
+                        data-ar="كلمة المرور">
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="studentPassword"
+                        placeholder="Enter your password"
+                        required>
+
+                </div>
+
+
+                <button type="submit" class="primary-btn login-submit">
+
+                    <span
+                        data-en="Login"
+                        data-ar="تسجيل الدخول">
+                        Login
+                    </span>
+
+                    →
+
+                </button>
+
+            </form>
+
+
+            <div id="loginMessage" class="login-message"></div>
+
+
+            <div class="demo-note">
+
+                <span>i</span>
+
+                <p
+                    data-en="This login is currently a front-end demo. Student data is stored locally on the device."
+                    data-ar="تسجيل الدخول حاليًا تجريبي للواجهة، وبيانات الطالب بتتخزن محليًا على الجهاز.">
+                    This login is currently a front-end demo.
+                    Student data is stored locally on the device.
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <p>
+                © <span id="year"></span> Maestro Math.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

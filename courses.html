@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Courses | Maestro Math</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ================= BACKGROUND ================= -->
+
+    <div class="bg-shape shape-one"></div>
+    <div class="bg-shape shape-two"></div>
+    <div class="bg-shape shape-three"></div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-icon">∑</span>
+
+                <div>
+                    <strong>Maestro</strong>
+                    <small>Math</small>
+                </div>
+
+            </a>
+
+
+            <nav class="nav-links">
+
+                <a href="index.html"
+                   data-en="Home"
+                   data-ar="الرئيسية">
+                    Home
+                </a>
+
+                <a href="about.html"
+                   data-en="About"
+                   data-ar="عن المدرس">
+                    About
+                </a>
+
+                <a href="courses.html"
+                   class="active"
+                   data-en="Courses"
+                   data-ar="الكورسات">
+                    Courses
+                </a>
+
+                <a href="quizzes.html"
+                   data-en="Quizzes"
+                   data-ar="الاختبارات">
+                    Quizzes
+                </a>
+
+            </nav>
+
+
+            <div class="nav-actions">
+
+                <button
+                    class="language-btn"
+                    onclick="toggleLanguage()">
+
+                    <span id="languageText">
+                        العربية
+                    </span>
+
+                </button>
+
+
+                <a
+                    href="login.html"
+                    class="login-btn"
+                    data-en="Login"
+                    data-ar="تسجيل الدخول">
+
+                    Login
+
+                </a>
+
+
+                <button
+                    class="menu-btn"
+                    onclick="toggleMenu()">
+
+                    ☰
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MOBILE MENU ================= -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a
+            href="index.html"
+            data-en="Home"
+            data-ar="الرئيسية">
+            Home
+        </a>
+
+        <a
+            href="about.html"
+            data-en="About"
+            data-ar="عن المدرس">
+            About
+        </a>
+
+        <a
+            href="courses.html"
+            data-en="Courses"
+            data-ar="الكورسات">
+            Courses
+        </a>
+
+        <a
+            href="quizzes.html"
+            data-en="Quizzes"
+            data-ar="الاختبارات">
+            Quizzes
+        </a>
+
+        <a
+            href="login.html"
+            data-en="Login"
+            data-ar="تسجيل الدخول">
+            Login
+        </a>
+
+    </div>
+
+
+    <!-- ================= PAGE HERO ================= -->
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span
+                class="section-label"
+                data-en="MATH COURSES"
+                data-ar="كورسات الرياضيات">
+
+                MATH COURSES
+
+            </span>
+
+
+            <h1
+                data-en="Choose Your Grade"
+                data-ar="اختار صفك">
+
+                Choose Your Grade
+
+            </h1>
+
+
+            <p
+                data-en="Choose your grade and start your mathematical journey with Maestro Math."
+                data-ar="اختار صفك وابدأ رحلتك في الرياضيات مع مايسترو الماث.">
+
+                Choose your grade and start your mathematical journey with Maestro Math.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= COURSES ================= -->
+
+    <section class="courses-section">
+
+        <div class="container">
+
+
+            <!-- ================================================= -->
+            <!-- ================= SECONDARY ===================== -->
+            <!-- ================================================= -->
+
+            <div class="stage-title">
+
+                <span
+                    data-en="SECONDARY STAGE"
+                    data-ar="المرحلة الثانوية">
+
+                    SECONDARY STAGE
+
+                </span>
+
+
+                <h2
+                    data-en="Secondary Courses"
+                    data-ar="كورسات المرحلة الثانوية">
+
+                    Secondary Courses
+
+                </h2>
+
+            </div>
+
+
+            <div class="courses-grid">
+
+
+                <!-- ================= FIRST SECONDARY ================= -->
+
+                <div class="course-card">
+
+                    <div class="course-number">
+                        01
+                    </div>
+
+
+                    <div class="grade-icon">
+                        1
+                    </div>
+
+
+                    <div
+                        class="popular-badge"
+                        data-en="SECONDARY"
+                        data-ar="ثانوي">
+
+                        SECONDARY
+
+                    </div>
+
+
+                    <span
+                        class="course-tag"
+                        data-en="SECONDARY"
+                        data-ar="ثانوي">
+
+                        SECONDARY
+
+                    </span>
+
+
+                    <h2
+                        data-en="First Secondary"
+                        data-ar="الصف الأول الثانوي">
+
+                        First Secondary
+
+                    </h2>
+
+
+                    <p
+                        data-en="Build strong mathematical understanding and master the essential concepts of first secondary."
+                        data-ar="ابني فهم قوي للرياضيات واتقن أهم مفاهيم الصف الأول الثانوي.">
+
+                        Build strong mathematical understanding and master the essential concepts of first secondary.
+
+                    </p>
+
+
+                    <ul>
+
+                        <li
+                            data-en="Strong Foundation"
+                            data-ar="تأسيس قوي">
+
+                            Strong Foundation
+
+                        </li>
+
+                        <li
+                            data-en="Concept Building"
+                            data-ar="بناء المفاهيم">
+
+                            Concept Building
+
+                        </li>
+
+                        <li
+                            data-en="Exam Preparation"
+                            data-ar="استعداد للامتحانات">
+
+                            Exam Preparation
+
+                        </li>
+
+                    </ul>
+
+
+                    <button
+                        class="course-btn"
+                        onclick="contactWhatsApp('أولى ثانوي')">
+
+                        <span
+                            data-en="Ask About Course"
+                            data-ar="استفسار عن الكورس">
+
+                            Ask About Course
+
+                        </span>
+
+                        →
+
+                    </button>
+
+                </div>
+
+
+                <!-- ================= SECOND SECONDARY ================= -->
+
+                <div class="course-card featured-course">
+
+                    <div class="course-number">
+                        02
+                    </div>
+
+
+                    <div class="grade-icon">
+                        2
+                    </div>
+
+
+                    <div
+                        class="popular-badge"
+                        data-en="SECONDARY"
+                        data-ar="ثانوي">
+
+                        SECONDARY
+
+                    </div>
+
+
+                    <span
+                        class="course-tag"
+                        data-en="SECONDARY"
+                        data-ar="ثانوي">
+
+                        SECONDARY
+
+                    </span>
+
+
+                    <h2
+                        data-en="Second Secondary"
+                        data-ar="الصف الثاني الثانوي">
+
+                        Second Secondary
+
+                    </h2>
+
+
+                    <p
+                        data-en="Develop advanced mathematical thinking and prepare for important secondary concepts."
+                        data-ar="طور تفكيرك الرياضي واستعد للمفاهيم المهمة في الصف الثاني الثانوي.">
+
+                        Develop advanced mathematical thinking and prepare for important secondary concepts.
+
+                    </p>
+
+
+                    <ul>
+
+                        <li
+                            data-en="Advanced Concepts"
+                            data-ar="مفاهيم متقدمة">
+
+                            Advanced Concepts
+
+                        </li>
+
+                        <li
+                            data-en="Problem Solving"
+                            data-ar="حل المشكلات">
+
+                            Problem Solving
+
+                        </li>
+
+                        <li
+                            data-en="Smart Practice"
+                            data-ar="تدريب ذكي">
+
+                            Smart Practice
+
+                        </li>
+
+                    </ul>
+
+
+                    <button
+                        class="course-btn"
+                        onclick="contactWhatsApp('تانية ثانوي')">
+
+                        <span
+                            data-en="Ask About Course"
+                            data-ar="استفسار عن الكورس">
+
+                            Ask About Course
+
+                        </span>
+
+                        →
+
+                    </button>
+
+                </div>
+
+
+                <!-- ================= THIRD SECONDARY ================= -->
+
+                <div class="course-card">
+
+                    <div class="course-number">
+                        03
+                    </div>
+
+
+                    <div class="grade-icon">
+                        3
+                    </div>
+
+
+                    <div
+                        class="popular-badge"
+                        data-en="SECONDARY"
+                        data-ar="ثانوي">
+
+                        SECONDARY
+
+                    </div>
+
+
+                    <span
+                        class="course-tag"
+                        data-en="SECONDARY"
+                        data-ar="ثانوي">
+
+                        SECONDARY
+
+                    </span>
+
+
+                    <h2
+                        data-en="Third Secondary"
+                        data-ar="الصف الثالث الثانوي">
+
+                        Third Secondary
+
+                    </h2>
+
+
+                    <p
+                        data-en="Complete preparation with focused revision, advanced problem solving and exam practice."
+                        data-ar="استعداد كامل من خلال المراجعة وحل المسائل والتدريب على الامتحانات.">
+
+                        Complete preparation with focused revision, advanced problem solving and exam practice.
+
+                    </p>
+
+
+                    <ul>
+
+                        <li
+                            data-en="Full Revision"
+                            data-ar="مراجعة شاملة">
+
+                            Full Revision
+
+                        </li>
+
+                        <li
+                            data-en="Exam Training"
+                            data-ar="تدريب على الامتحانات">
+
+                            Exam Training
+
+                        </li>
+
+                        <li
+                            data-en="Advanced Practice"
+                            data-ar="تدريب متقدم">
+
+                            Advanced Practice
+
+                        </li>
+
+                    </ul>
+
+
+                    <button
+                        class="course-btn"
+                        onclick="contactWhatsApp('تالتة ثانوي')">
+
+                        <span
+                            data-en="Ask About Course"
+                            data-ar="استفسار عن الكورس">
+
+                            Ask About Course
+
+                        </span>
+
+                        →
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================================================= -->
+            <!-- ================= PREPARATORY =================== -->
+            <!-- ================================================= -->
+
+            <div class="stage-title preparatory-title">
+
+                <span
+                    data-en="PREPARATORY STAGE"
+                    data-ar="المرحلة الإعدادية">
+
+                    PREPARATORY STAGE
+
+                </span>
+
+
+                <h2
+                    data-en="Preparatory Courses"
+                    data-ar="كورسات المرحلة الإعدادية">
+
+                    Preparatory Courses
+
+                </h2>
+
+            </div>
+
+
+            <div class="courses-grid">
+
+
+                <!-- ================= FIRST PREPARATORY ================= -->
+
+                <div class="course-card">
+
+                    <div class="course-number">
+                        04
+                    </div>
+
+
+                    <div class="grade-icon">
+                        1
+                    </div>
+
+
+                    <div
+                        class="popular-badge"
+                        data-en="PREPARATORY"
+                        data-ar="إعدادي">
+
+                        PREPARATORY
+
+                    </div>
+
+
+                    <span
+                        class="course-tag"
+                        data-en="PREPARATORY"
+                        data-ar="إعدادي">
+
+                        PREPARATORY
+
+                    </span>
+
+
+                    <h2
+                        data-en="First Preparatory"
+                        data-ar="الصف الأول الإعدادي">
+
+                        First Preparatory
+
+                    </h2>
+
+
+                    <p
+                        data-en="Build a strong mathematical foundation and understand the core concepts of preparatory mathematics."
+                        data-ar="ابني أساس قوي في الرياضيات وافهم أهم مفاهيم المرحلة الإعدادية.">
+
+                        Build a strong mathematical foundation and understand the core concepts of preparatory mathematics.
+
+                    </p>
+
+
+                    <ul>
+
+                        <li
+                            data-en="Strong Foundation"
+                            data-ar="تأسيس قوي">
+
+                            Strong Foundation
+
+                        </li>
+
+                        <li
+                            data-en="Clear Explanations"
+                            data-ar="شرح واضح">
+
+                            Clear Explanations
+
+                        </li>
+
+                        <li
+                            data-en="Continuous Practice"
+                            data-ar="تدريب مستمر">
+
+                            Continuous Practice
+
+                        </li>
+
+                    </ul>
+
+
+                    <button
+                        class="course-btn"
+                        onclick="contactWhatsApp('أولى إعدادي')">
+
+                        <span
+                            data-en="Ask About Course"
+                            data-ar="استفسار عن الكورس">
+
+                            Ask About Course
+
+                        </span>
+
+                        →
+
+                    </button>
+
+                </div>
+
+
+                <!-- ================= SECOND PREPARATORY ================= -->
+
+                <div class="course-card">
+
+                    <div class="course-number">
+                        05
+                    </div>
+
+
+                    <div class="grade-icon">
+                        2
+                    </div>
+
+
+                    <div
+                        class="popular-badge"
+                        data-en="PREPARATORY"
+                        data-ar="إعدادي">
+
+                        PREPARATORY
+
+                    </div>
+
+
+                    <span
+                        class="course-tag"
+                        data-en="PREPARATORY"
+                        data-ar="إعدادي">
+
+                        PREPARATORY
+
+                    </span>
+
+
+                    <h2
+                        data-en="Second Preparatory"
+                        data-ar="الصف الثاني الإعدادي">
+
+                        Second Preparatory
+
+                    </h2>
+
+
+                    <p
+                        data-en="Strengthen your mathematical skills and master important concepts through smart practice."
+                        data-ar="قوي مهاراتك الرياضية واتقن المفاهيم المهمة من خلال التدريب الذكي.">
+
+                        Strengthen your mathematical skills and master important concepts through smart practice.
+
+                    </p>
+
+
+                    <ul>
+
+                        <li
+                            data-en="Concept Building"
+                            data-ar="بناء المفاهيم">
+
+                            Concept Building
+
+                        </li>
+
+                        <li
+                            data-en="Problem Solving"
+                            data-ar="حل المشكلات">
+
+                            Problem Solving
+
+                        </li>
+
+                        <li
+                            data-en="Smart Practice"
+                            data-ar="تدريب ذكي">
+
+                            Smart Practice
+
+                        </li>
+
+                    </ul>
+
+
+                    <button
+                        class="course-btn"
+                        onclick="contactWhatsApp('تانية إعدادي')">
+
+                        <span
+                            data-en="Ask About Course"
+                            data-ar="استفسار عن الكورس">
+
+                            Ask About Course
+
+                        </span>
+
+                        →
+
+                    </button>
+
+                </div>
+
+
+                <!-- ================= THIRD PREPARATORY ================= -->
+
+                <div class="course-card">
+
+                    <div class="course-number">
+                        06
+                    </div>
+
+
+                    <div class="grade-icon">
+                        3
+                    </div>
+
+
+                    <div
+                        class="popular-badge"
+                        data-en="PREPARATORY"
+                        data-ar="إعدادي">
+
+                        PREPARATORY
+
+                    </div>
+
+
+                    <span
+                        class="course-tag"
+                        data-en="PREPARATORY"
+                        data-ar="إعدادي">
+
+                        PREPARATORY
+
+                    </span>
+
+
+                    <h2
+                        data-en="Third Preparatory"
+                        data-ar="الصف الثالث الإعدادي">
+
+                        Third Preparatory
+
+                    </h2>
+
+
+                    <p
+                        data-en="Get ready for exams with strong revision, focused practice and complete mathematical preparation."
+                        data-ar="استعد للامتحانات بمراجعة قوية وتدريب مركز واستعداد كامل في الرياضيات.">
+
+                        Get ready for exams with strong revision, focused practice and complete mathematical preparation.
+
+                    </p>
+
+
+                    <ul>
+
+                        <li
+                            data-en="Full Revision"
+                            data-ar="مراجعة شاملة">
+
+                            Full Revision
+
+                        </li>
+
+                        <li
+                            data-en="Exam Preparation"
+                            data-ar="استعداد للامتحانات">
+
+                            Exam Preparation
+
+                        </li>
+
+                        <li
+                            data-en="Strong Practice"
+                            data-ar="تدريب قوي">
+
+                            Strong Practice
+
+                        </li>
+
+                    </ul>
+
+
+                    <button
+                        class="course-btn"
+                        onclick="contactWhatsApp('تالتة إعدادي')">
+
+                        <span
+                            data-en="Ask About Course"
+                            data-ar="استفسار عن الكورس">
+
+                            Ask About Course
+
+                        </span>
+
+                        →
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="courses-contact">
+
+        <div class="container">
+
+            <div class="contact-box">
+
+                <div>
+
+                    <span
+                        data-en="HAVE A QUESTION?"
+                        data-ar="عندك استفسار؟">
+
+                        HAVE A QUESTION?
+
+                    </span>
+
+
+                    <h2
+                        data-en="Let's Talk About Your Course"
+                        data-ar="تواصل معانا بخصوص الكورس">
+
+                        Let's Talk About Your Course
+
+                    </h2>
+
+                </div>
+
+
+                <button
+                    class="whatsapp-btn"
+                    onclick="contactWhatsApp('استفسار عام')">
+
+                    <span>
+                        WhatsApp
+                    </span>
+
+                    →
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <div class="footer-logo">
+
+                <span>
+                    ∑
+                </span>
+
+                <div>
+
+                    <strong>
+                        Maestro Math
+                    </strong>
+
+                    <small>
+                        Mr. Ashraf Ali
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <p>
+
+                © <span id="year"></span> Maestro Math.
+
+                <span
+                    data-en="All Rights Reserved."
+                    data-ar="جميع الحقوق محفوظة.">
+
+                    All Rights Reserved.
+
+                </span>
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
